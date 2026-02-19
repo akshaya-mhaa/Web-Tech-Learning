@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee register form</title>
+</head>
+<body>
+
+    <h2>form tag is used to create a form like structure</h2>
+    <br><h2>label tag is used to display words or sentence inside the form </h2>
+    <br>
+    <h2>input tag is used to create a input field like a box where you enter your input</h2>
+    <h2>since it is a inline block the labels will get printed next to each other to avoid it br tag is used</h2>
+    <h2>if you want add border to the form use fieldset tag</h2>
+    <h1>attributes of input tag</h1>
+    <h2>input tag has attributes like type which in default is text which can be changed into number,email,password,textdate,etc another attribute is placeholder which displays sentence inside the input box</h2>
+    <br><br>
+    <h2>other attributes of input tag are id , if you give a name to id and use that id in label tag for attribute if you click on label then the border of the input tag will change</h2>
+    <br>
+    <h2>another attribute of input tag is name which is used to store the value enter in the specific input space</h2>
+    <br>
+    <h2> in checkbox we can select more than one box to add checkbox using label tag and add input attribute as type=checkbox  to store the value of the checkbox labels we need to use value attribute and assign its value when it is selected</h2>
+    <br>
+    <h2>radio is a html tag unlike checkbox here only one option can be selected</h2>
+    
+    
+    <h1>Sign-up form for employee</h1>
+
+    <fo 
+    rm action="">
+        <fieldset>
+        <label for="em">employee name</label>
+        <input type="text" placeholder="Enter ur name" name="ename" id="em">
+        <br><br>
+        <label for="pn">phone number</label>
+        <input type="number" placeholder="enter phno" id="pn" name="phno">
+        <br><br>
+        <label for="pass">enter password</label>
+        <input type="password" placeholder="enter ur password" id="pass" name="passem">
+        <br><br>
+        <label for="age">Enter age</label>
+        <input type="number" placeholder="Enter ur age" name="age" id="age">
+        <br><br>
+        <label for="email">Enter email</label>
+        <input type="email" name="email" id="email" placeholder="enter ur email">
+        <br><br>
+        <label for="">Subjects</label><br>
+        <label for="h">HTML</label>
+        <input type="checkbox" id="h" name="h" value="hTML">
+        <label for="c">CSS</label>
+        <input type="checkbox" id="c" name="c" value="CSS">
+        <label for="j">JS</label>
+        <input type="checkbox" id="j" name="j" value="JS">
+        <br><br>
+        <label for="">Gender</label>
+        <br>
+        <label for="m">male</label>
+        <input type="radio" id="m">
+        <label for="f">female</label>
+        <input type="radio" name="" id="f">
+        <label for="o">others</label>
+        <input type="radio" name="" id="o">
+
+
+        <br><br>
+        <button> register</button>
+        </fieldset>
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right,orange,orangered);
+}
+
+.outer>.inner{
+    height: 85%;
+    width: 75%;
+    background-color: beige;
+    
+}
+nav>h1{
+    font-weight: lighter;
+}
+nav>ul{
+    display: flex;
+    gap: 20px;
+    font-size: larger;
+    font-weight: bolder;
+    
+}
+
+.inner>nav{
+    border: 5px solid black;
+    height:15%;
+    
+    display: flex;
+    justify-content: space-around;
+
+    padding: 20px;
+
+}
+
+.inner>section{
+    height: 70%;
+    border: 3px solid red;
+    display: flex;
+}
+
+.bu>.yy{
+    padding: 10px;
+    background-color: rgb(34, 34, 137);
+    color: beige;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.bu>.zz{
+    padding: 10px;
+    background-color: beige ;
+    color: rgb(34, 34, 137);
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 10px;
+}
+section>.left{
+    flex-basis: 50%;
+    border: 2px solid rgb(46, 35, 46);
+    padding: 50px;
+}
+section>.left>h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-spacing: 5px;
+    letter-spacing: 1.5px;
+}
+section>.left>p{
+    padding-top: 10px;
+    letter-spacing: 1.5px;
+}
+section>.left>.mm{
+    display: flex;
+}
+.mm>input{
+    width: 50%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.mm>button{
+    color: beige;
+    background-color: rgb(34, 34, 137);
+    width: 60px;
+    padding: 10px;
+    margin: 5px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+section>.right{
+    flex-basis: 50%;
+    border: 2px solid rgb(46, 35, 46);
+}
+
+
+.inner>footer{
+    height: 15%;
+    border: 2px solid black;
+    display: flex;
+}
+
+footer>.le{
+    flex-basis: 50%;
+    border: 2px solid black;
+}
+
+footer>.ri{
+    flex-basis: 50%;
+    border: 2px solid black;
+    display: flex;
+}
+
+.ri>img{
+    height: 60px;
+    border-radius: 50%;
+}

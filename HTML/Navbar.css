@@ -1,0 +1,24 @@
+*{
+    padding: 0%;
+    margin: 0cap;
+    box-sizing: border-box;
+}
+
+.hi{
+    background-color: darkcyan;
+    display: flex;
+    justify-content: space-around  ;
+    align-items: center;
+    padding: 20px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+li:hover{
+    color: rgb(120, 7, 196);
+    cursor: pointer;
+}

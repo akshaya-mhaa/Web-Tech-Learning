@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    background-color:burlywood;
+    height: 400px;
+    width: 600px;
+    margin: auto;
+    margin-top: 100px;
+    border: 3px solid crimson;
+}
+
+.outer>.box{
+    height: 60px;
+    width: 70px;
+    border: 2px solid saddlebrown;
+    margin: auto;
+}
+.outer>#box1{
+    background-color: aliceblue;
+    margin-top: 50px;
+}
+.outer>#box2{
+    background-color: antiquewhite;
+}
+.outer>#box3{
+    background-color: azure;
+}
+.outer>#box4{
+    background-color: blanchedalmond;
+}

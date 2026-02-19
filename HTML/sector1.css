@@ -1,0 +1,24 @@
+h1{
+    color: aquamarine;
+    background-color: black;
+}
+#hi{
+    color: chartreuse;
+}
+.card{
+    background-color: bisque;
+}
+
+.box{
+    height: 100px;
+    width: 120px;
+}
+*{
+    font-style: italic;
+}
+#para1,h1{
+    border: 20px;
+}
+.box,.card{
+    border-radius: 20px;
+}

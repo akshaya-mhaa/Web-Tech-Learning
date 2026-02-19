@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(to bottom,rgb(239, 249, 252),white);
+
+}
+
+.outer>.left{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.outer>.left>h1{
+    font-size: 80px;
+    color: rgb(32, 32, 117);
+}
+
+.outer>.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-basis: 50%;    
+    padding: 20px;
+    box-shadow: brown;
+}
+
+.outer>.right>form{
+    flex-direction: row;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 5px 5px 5px 0.5px lightslategrey;
+    border-radius: 12px;
+
+}
+
+.outer>.right>form>input{
+    display: flex;
+    margin: 15px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 12px;
+    outline: none;
+    box-shadow: 2;
+}
+.outer>.right>form>input:focus{
+    color: 2px solid rgb(3, 3, 72);
+    
+}
+form>.ii{
+    padding: 15px;
+    color: white;
+    font-size: larger;
+    background-color: rgb(32, 32, 117);
+    border-radius: 10px;
+    font-weight: 2px;
+    font-size: 16px;
+    font-weight: 600;
+}
+form>.ii:hover{
+    background-color: rgb(7, 7, 55);
+    box-shadow: 2px 2px 5px 0.5px black;
+}
+
+
+input::placeholder{
+    font-size: 16px;
+}
+
+.aa{
+    background-color: rgb(66, 230, 66);
+    color: antiquewhite;
+    padding: 15px;
+    border-radius: 12px;
+    margin: 13px;
+    font-size: 16px;
+    font-weight: bolder;
+    letter-spacing: 1.2px;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    
+}

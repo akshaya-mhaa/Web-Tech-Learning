@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+    overflow: scroll;
+}
+.outer>img{
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.outer>img:hover{
+    transform: scale(1.05);
+}
+
+::-webkit-scrollbar{
+    
+}

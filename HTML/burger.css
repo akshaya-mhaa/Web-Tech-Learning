@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    background: linear-gradient(to right,red,brown,black);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner{
+    height: 450px;
+    width: 450px;
+    background: linear-gradient(rgb(151, 151, 238),rgb(174, 174, 199),rgb(207, 207, 236),wheat,white);
+    border-radius: 23px;
+
+}

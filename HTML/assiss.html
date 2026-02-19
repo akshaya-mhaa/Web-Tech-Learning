@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Factorial and Sum Table</title>
+</head>
+<body>
+
+<h2>Factorial and Cumulative Sum (1 to 10)</h2>
+
+<table border="1" cellpadding="8">
+    <thead>
+        <tr>
+            <th>Number</th>
+            <th>Factorial</th>
+            <th>Sum</th>
+        </tr>
+    </thead>
+    <tbody id="resultTable"></tbody>
+</table>
+
+<script>
+    // Function to calculate factorial
+    function factorial(n) {
+        let fact = 1;
+        for (let i = 1; i <= n; i++) {
+            fact *= i;
+        }
+        return fact;
+    }
+
+    let cumulativeSum = 0;
+    let tableBody = document.getElementById("resultTable");
+
+    for (let i = 1; i <= 10; i++) {
+        cumulativeSum += i;
+        let factValue = factorial(i);
+
+        let row = `
+            <tr>
+                <td>${i}</td>
+                <td>${factValue}</td>
+                <td>${cumulativeSum}</td>
+            </tr>
+        `;
+        tableBody.innerHTML += row;
+    }
+</script>
+
+</body>
+</html>

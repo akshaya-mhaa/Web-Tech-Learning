@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right , black,rgb(26, 53, 64),skyblue, white);
+}
+
+.inner{
+    height: 200px;
+    width: 300px;
+    background-color: black;
+    border-radius: 10px;
+    animation: disco 2s ease-in-out  infinite alternate;
+}
+@keyframes disco {
+    from{
+        
+    }
+    to{
+        background-color: bisque;
+        border-radius: 50%;
+        transform: translateY(-100px);
+    }
+    
+}

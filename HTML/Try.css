@@ -16,18 +16,42 @@
     width: 80%;
     
 }
+.inner>section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
 .inner>section.left{
     
     flex-basis: 50%;
     background-color: blue;
+    height: 100%;
+    position: relative;
+}
+
+.left>button{
+    color: white;
+    padding: 10px 40px;
+    background-color: darkred;
+    border-radius: 13px;
+}
+.left>h1{
+    font-weight: bolder;
+    font-size: 20mm;
+    position: absolute
+    bottom: 50px;
+}
+.left>p{
+    font-size: 6mm;
 }
 
 .inner>section>.right{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 300px;
-    width: 300px;
+    height: 100%;
+    position: relative;
     flex-basis: 50%;
 }
 nav>h2{
@@ -47,7 +71,7 @@ nav>button{
     color: white;
     background-color: darkred;
     border-radius: 12px;
-    padding: 2px 20px;
+    
 }
 
 .inner>nav{
@@ -61,7 +85,15 @@ nav>button{
 }
 
 .right>.cc{
-    height: 300px;
-    width: 300px;
-    background-color: brown;
+    height: 500px;
+    width: 500px;
+    background-color: rgb(91, 15, 15);
+    border-radius: 50%;
+    
+}
+
+.cc>img{
+    height: 400px;
+    position: absolute;
+    right: 30px;
 }

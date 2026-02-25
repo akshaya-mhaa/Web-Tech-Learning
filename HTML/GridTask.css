@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    height: 100vh;
+    background: linear-gradient(to right bottom,brown,red,orangered,orange,yellow);
+}
+
+.outer>.inner{
+    height: 80%;
+    width: 80%;
+    /* background-color: antiquewhite; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    
+}
+
+.inner>.box{
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: top;
+    transition: all 2s ease-in-out;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+
+}
+.inner>.box>h1{
+    text-transform: lowercase;
+    color: antiquewhite;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.inner>.box:hover{
+    background-position: center;
+
+}
+
+.inner>#box1{
+    grid-row: span 2;
+    background-image: url("https://images.pexels.com/photos/1670187/pexels-photo-1670187.jpeg");
+}
+
+.inner>#box2{
+    background-image: url("https://images.pexels.com/photos/561463/pexels-photo-561463.jpeg");
+}
+.inner>#box3{
+    background-image: url("https://images.pexels.com/photos/9989601/pexels-photo-9989601.jpeg");
+
+}
+.inner>#box4{
+    grid-column: span 2;
+    background-image: url("https://images.pexels.com/photos/1631678/pexels-photo-1631678.jpeg");
+   
+}
+.inner>#box5{
+    background-image: url("https://images.pexels.com/photos/355288/pexels-photo-355288.jpeg");
+
+}
+
+.inner>#box6{
+    background-image: url("https://images.pexels.com/photos/163872/italy-cala-gonone-air-sky-163872.jpeg");
+
+}
+
+.inner>#box7{
+    background-image: url("https://images.pexels.com/photos/1043458/pexels-photo-1043458.jpeg");
+
+}
+
